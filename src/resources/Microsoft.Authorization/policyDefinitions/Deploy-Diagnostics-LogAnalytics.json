@@ -153,6 +153,10 @@
                         {
                           "category": "Audit",
                           "enabled": "[[parameters('logsEnabled')]"
+                        },
+                        {
+                          "category": "SummaryLogs",
+                          "enabled": "[[parameters('logsEnabled')]"
                         }
                       ]
                     }
